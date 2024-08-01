@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hii,I'm <span>Priyanshu Rai</span><br>From India</h1>
+        </div>
+      </div>
+   </div>
+   <!-------------about--------------->
+   <div id="about">
+       <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+                <img src="images/MyPic1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there! I am Priyanshu Rai, a passionate and dedicated Full Stack Developer with over 1 year of hands-on experience in the dynamic world of web development. My proficiency spans a wide array of technologies, allowing me to navigate seamlessly through both front-end and back-end development landscapes. As a Full Stack Developer, I am enthusiastic about leveraging technology to create seamless and impactful digital experiences. I invite you to explore my portfolio to gain deeper insights into my work and the innovative projects I've been a part of. Let's connect and collaborate to bring your ideas to life!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages:</span><br>Proficient in Java, SQL, and Data Structures & Algorithm(DSA)</li>
+                        <li><span>Back-End Technologies:</span><br>Well-versed in developing robust and scalable applications using Spring Boot and Hibernate.</li>
+                        <li><span>Web Technologies:</span><br>Experienced in JSP and J2EE, ensuring efficient and dynamic server-side rendering.</li>
+                        <li><span>Front-End Development:</span><br>Skilled in crafting responsive and visually appealing user interfaces using React.js, HTML, and CSS</li>
+                        <li><span>Containerization:</span><br>Familiar with Docker for streamlining deployment processes.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>AppSquadz Software Pvt. Ltd. Noida 63:</span><br>Jr. Java Developer(November 2023-June 2024)</li>
+                        <li><span>Vigor Health Foods:</span><br>Web Developer (February 2023-June 2023)</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>B.TECH:</span><br>Mangalmay Institute of Engineering and Technology<br>
+                            (2019-2023)</li>
+                        <li><span>SENIOR SECONDARY:</span><br>Children Sr.Sec.School<br>(2016-2017)</li>
+                        <li><span>SECONDARY:</span><br>Children Sr.Sec.School<br>(2014-2015)</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+         </div>
+       </div>
+   </div> 
+   <!-----------------------services------------------------------------------------------>
+   <div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Development</h2>
+                <p>
+                    " I specialize in web development services, with a focus on crafting dynamic and responsive websites. Proficient in React.js, I bring a modern and user-centric approach to web design, ensuring seamless user experiences across various devices. From building custom portfolios that showcase individual uniqueness to creating fully functional and visually appealing websites, my services encompass a broad spectrum of web development needs. Whether you're looking to establish a professional online presence or enhance your existing digital footprint, I am dedicated to delivering tailored solutions that align with your vision and objectives. Let's collaborate to bring your ideas to life in the digital space."
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Development</h2>
+                <p> 
+                    "With your knowledge of core Java, J2EE (Java 2 Platform, Enterprise Edition), JSP (JavaServer Pages), Spring, Hibernate, and software development, I possess a well-rounded expertise in Java-based technologies for building robust and scalable applications. Core Java provides the foundation, J2EE extends your capabilities for enterprise-level development, JSP enables dynamic web page creation, and Spring and Hibernate offer powerful frameworks for application development and database interaction, respectively."
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-clone"></i>
+                <h2>Graphic Design</h2>
+                <p>
+                    "I specialize in a comprehensive array of graphic design services, offering expertise in poster making, ads creation, and post design. With a keen eye for aesthetics and a proficiency in various design tools, I craft visually compelling and engaging materials tailored to meet the unique needs of clients. Whether it's designing attention-grabbing posters for events, creating impactful advertisements, or crafting visually appealing social media posts, my services are geared towards delivering high-quality visual content that effectively communicates messages and captures the audience's attention. Let me transform your ideas into visually stunning and impactful designs that leave a lasting impression."
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+   </div>
+   <!-----------------------Portfolio------------------------------------------------------>
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <img src="images/work-2.png">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>My Pet Website</h3>
+                        <p>"MyPet" is a comprehensive web application designed for animal lovers, providing a platform for buying, selling, and breeding pets.
+                            This project was created with the goal of fostering a community of pet enthusiasts and facilitating seamless transactions related to pets. The website incorporates modern technologies to enhance user experience and ensure efficient functionality</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-7.png">
+                    <img src="images/work-8.png">
+                    <img src="images/work-9.png">
+                    <div class="layer">
+                        <h3>Foodie Website</h3>
+                        <p>I developed a dynamic food website using HTML, CSS, and JavaScript, combining elegant design with interactive features. The website offers a visually appealing user interface, utilizing HTML for structuring content, CSS for styling and layout, and JavaScript to enhance user experience. Features include a responsive design for optimal viewing on various devices, interactive elements such as menus and sliders, and seamless navigation. The project showcases my proficiency in front-end web development, providing users with an engaging platform to explore and discover various culinary offerings.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <img src="images/work-5.png">
+                    <img src="images/work-6.png">
+                    <div class="layer">
+                        <h3>Instagram Posts</h3>
+                        <p>"MyPet" is a comprehensive web application designed for animal lovers, providing a platform for buying, selling, and breeding pets.
+                            This project was created with the goal of fostering a community of pet enthusiasts and facilitating seamless transactions related to pets. The website incorporates modern technologies to enhance user experience and ensure efficient functionality</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>     
+    <!------------------------------Contact-------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rai123priyam@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6307618494</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/myCV.pdf" download class="btn btn2">Download CV</a>
+
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © All Rights Reserved, Made with 💖 by Priyanshu Rai </p>
+        </div>
+    </div>   
+   
+    
+   <script>
+       
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyUrAEsfhtM39c9G1NhBpTFU09nRWR4abq45KKmQhjItBv_3Vb-uxJaT8mDk0spICthsg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.rest()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
